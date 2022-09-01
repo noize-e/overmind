@@ -1,0 +1,29 @@
+Big-O
+
+Let’s consider n to be the size of the input collection. In terms of time complexity:
+
+O(1): No matter how big your collection is, the time it takes to perform an operation is constant. This is the constant time complexity notation. These operations are as fast as we can get. As an instance, operations that check whether a collection has any items inside it is an O(1) operation.
+
+O(log n): When the size of a collection increases, the time it takes to perform an operation increases logarithmically. This is the logarithmic time complexity notation. Potentially optimised searching algorithms are O(log n).
+
+O(n): The time it takes to perform an operation is directly and linearly proportional to the number of items in the collection. This is the linear time complexity notation. This is some-what in-between or medium in terms of performance. As an instance, if we want to sum all of the items in a collection then we would have to iterate over the collection. Hence the iteration of a collection is an O(n) operation.
+    
+(n log n): Where the performance of performing an operation is a quasilinear function of the number of items in the collection. This is known as the quasilinear time complexity notation. Time complexity of optimised sorting algorithm is usually n(log n).
+
+O(n square): When the time it takes to perform an operation is proportional to the square of the items in the collection. This is known as the quadratic time complexity notation.
+
+(n!): When every single permutation of a collection is computed in an operation and hence the time it takes to perform an operation is factorial of the size of the items in the collection. This is known as factorial time complexity notation. It is very slow.
+
+Best, Average, Worst Cases
+--------------------------
+
+When we compute the time complexity of an operation, we could produce the complexity based on the best, average or worst-case scenario.
+
+Best case scenario: 
+    As the name implies, these are the scenarios when the data structures and the items in the collection along with the parameters are at their optimum state. As an instance, imagine we want to find an item in a collection. If that item happens to be the first item of the collection then it is the best-case scenario for the operation.
+
+Average case scenario:
+    Is when we define the complexity based on the distribution of the values of the input.
+
+Worst case scenario:
+    Could be an operation that requires finding an item that is positioned as the last item in a large-sized collection such as a list and the algorithm iterates over the collection from the very first item.

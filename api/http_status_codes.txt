@@ -1,0 +1,15 @@
+Tags: RESTful, HTTP Codes
+---
+
+**200**: Successful request, often a GET
+201: Successful request after a create, usually a POST
+204: Successful request with no content returned, usually a PUT or PATCH
+301: Permanently redirect to another endpoint
+400: Bad request (client should modify the request)
+401: Unauthorized, credentials not recognized
+403: Forbidden, credentials accepted but don’t have permission
+404: Not found, the resource does not exist
+410: Gone, the resource previously existed but does not now
+429: Too many requests, used for rate limiting and should include retry headers
+500: Server error, generic and worth looking at other 500-level errors instead
+503: Service unavailable, another where retry headers are useful

@@ -1,0 +1,32 @@
+
+CPython Data Structures Time Complexity
+
+> O(1) is fast. O(n square) is slow. O(n!) is very slow.
+
+## list
+
+| Op          | TC(Big-O) |
+|:------------|:----------|
+| Insert      | O(n)      |
+| Get Item    | O(1)      |
+| Delete Item | O(n)      |
+| Iteration   | O(n)      |
+| Get Length  | O(1)      |
+
+## set
+
+| Op                          | TC(Big-0)                                  |
+|:----------------------------|:-------------------------------------------|
+| Check for item in set       | O(1)                                       |
+| Difference of set A from B  | O(length of A)                             |
+| Intersection of set A and B | O(minimum of the length of either A or B)  |
+| Union of set A and B        | O(N) with respect to length(A) + length(B) |
+
+## dict
+
+| Op                      | TC(Big-O) |
+|:------------------------|:----------|
+| Get Item                | O(1)      |
+| Set Item                | O(1)      |
+| Delete Item             | O(1)      |
+| Iterate Over Dictionary | O(n)      |

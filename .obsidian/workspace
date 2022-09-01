@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "4d2593d200907da0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9e1c5433c7b2094",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "cheatsheets/Python..md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3005461bc73e4e70",
+    "type": "split",
+    "children": [
+      {
+        "id": "15f0035daed5c6c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0394e7fbcd36ad6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "47fd2b12fd8df13f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48e7bc6d0ad9e164",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "69d5b598c1ae71ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "2292d9e3c966fb7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa270fa41a8cfd57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cheatsheets/Python..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30c11d4c66f085c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "cheatsheets/Python..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "528128aa2a94bbed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2bae66939d113c77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cheatsheets/Python..md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f9e1c5433c7b2094",
+  "lastOpenFiles": [
+    "big--o/CPython Data Structure BIg-O.md",
+    "cheatsheets/Python..md",
+    "cheatsheets/Django.md",
+    "cheatsheets/Comprehensive Python Cheatsheet.md",
+    "cheatsheets/Bash scripting cheatsheet.md",
+    "Javascript Cheatsheet.md",
+    "web/covid_cases.png.md"
+  ]
+}
